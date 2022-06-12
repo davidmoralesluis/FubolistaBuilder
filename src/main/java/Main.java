@@ -25,5 +25,12 @@ public class Main {
         for (Futbolista lista:listaFutbolistas) {
             System.out.println(lista.toString());
         }
+
+        pele.setEquipo("FC Santos");
+        pele.setPosicion("Delantero");
+        pele.setAnnoNacimiento(1940);
+
+        System.out.println("\n<>añadir parametros a pele<>\n"+pele.toString());
+
     }
 }
